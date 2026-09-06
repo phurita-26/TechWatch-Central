@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ยืนยันคำสั่งซื้อ | TechWatch Central</title>
+  <meta name="description" content="กรอกข้อมูลเพื่อยืนยันคำสั่งซื้อสมาร์ทวอทช์ที่ TechWatch Central">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="logo">Tech<span>Watch</span> Central</a>
+      <nav class="nav-links">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>ยืนยันคำสั่งซื้อ</h1>
+        <p>กรอกข้อมูลของคุณให้ครบถ้วน ทีมงานจะติดต่อกลับเพื่อยืนยันและนัดจัดส่งสินค้า</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <form id="orderForm" class="form-card" novalidate>
+
+        <div class="form-group">
+          <label for="customerName">ชื่อลูกค้า</label>
+          <input
+            type="text"
+            id="customerName"
+            name="customerName"
+            class="form-control"
+            placeholder="ชื่อ-นามสกุล"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="contact">เบอร์โทร/Line</label>
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            class="form-control"
+            placeholder="08xxxxxxxx หรือ Line ID"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="items">รายการสินค้า</label>
+          <input
+            type="text"
+            id="items"
+            name="items"
+            class="form-control"
+            placeholder="ชื่อสินค้าที่ต้องการสั่งซื้อ"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="total">จำนวนเงินรวม (บาท)</label>
+          <input
+            type="text"
+            id="total"
+            name="total"
+            class="form-control"
+            placeholder="0"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="note">หมายเหตุ</label>
+          <textarea
+            id="note"
+            name="note"
+            class="form-control"
+            placeholder="ที่อยู่จัดส่ง เวลาที่สะดวกให้ติดต่อกลับ หรือความต้องการเพิ่มเติม (ถ้ามี)"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block">ยืนยันสั่งซื้อ</button>
+
+        <p class="form-note">ข้อมูลของคุณจะถูกใช้เพื่อการติดต่อและจัดส่งสินค้าเท่านั้น</p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo" style="font-size: var(--fs-sm);">Tech<span>Watch</span> Central</span>
+      <p>&copy; 2026 TechWatch Central. ศูนย์รวมสมาร์ทวอทช์มัลติแบรนด์</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
