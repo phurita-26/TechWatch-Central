@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Xiaomi Smart Band 8",
+    "brand": "xiaomi",
+    "price": 1190,
+    "image": "images/xiaomi-smart-band-8.jpg",
+    "description": "สายรัดข้อมืออัจฉริยะราคาสุดคุ้ม บางเบา แบตอึดข้ามสัปดาห์ ตอบโจทย์การใช้งานพื้นฐานครบจบในเรือนเดียว"
+  },
+  {
+    "id": 2,
+    "name": "Xiaomi Watch S3",
+    "brand": "xiaomi",
+    "price": 4890,
+    "image": "images/xiaomi-watch-s3.jpg",
+    "description": "สมาร์ทวอทช์ดีไซน์ปรับเปลี่ยนหน้าปัดได้ตามสไตล์ ฟีเจอร์สุขภาพครบเครื่อง ในราคาที่คุ้มค่าเกินตัว"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy Fit3",
+    "brand": "samsung",
+    "price": 1990,
+    "image": "images/samsung-galaxy-fit3.jpg",
+    "description": "แทร็กเกอร์สุขภาพและฟิตเนสขนาดกะทัดรัด หน้าจอสว่างชัด ใส่สบายได้ทั้งวันในราคาเข้าถึงง่าย"
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy Watch6 40mm",
+    "brand": "samsung",
+    "price": 7900,
+    "image": "images/samsung-galaxy-watch6-40mm.jpg",
+    "description": "สมาร์ทวอทช์ดีไซน์คลาสสิกทันสมัย ฟีเจอร์สุขภาพครบครัน เหมาะกับข้อมือทุกขนาดที่ต้องการความคล่องตัว"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy Watch6 Classic",
+    "brand": "samsung",
+    "price": 11900,
+    "image": "images/samsung-galaxy-watch6-classic.jpg",
+    "description": "ยกระดับความหรูด้วยขอบเบเซลหมุนได้สุดคลาสสิก พร้อมฟีเจอร์สุขภาพและฟิตเนสระดับโปร สมบูรณ์แบบทั้งลุคและฟังก์ชั่น"
+  },
+  {
+    "id": 6,
+    "name": "Apple Watch SE (รุ่นที่ 2)",
+    "brand": "apple",
+    "price": 9400,
+    "image": "images/apple-watch-se-2.jpg",
+    "description": "ประตูสู่โลก Apple Watch ในราคาที่เข้าถึงง่าย พร้อมฟีเจอร์ความปลอดภัยและสุขภาพที่จำเป็นครบถ้วน"
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 9",
+    "brand": "apple",
+    "price": 15900,
+    "image": "images/apple-watch-series-9.jpg",
+    "description": "สมาร์ทวอทช์รุ่นมาตรฐานที่ทรงพลัง ฉลาดขึ้นด้วยชิปรุ่นใหม่ ฟีเจอร์ความปลอดภัยครบ พร้อม Ecosystem ที่ไร้รอยต่อ"
+  },
+  {
+    "id": 8,
+    "name": "Apple Watch Ultra 2",
+    "brand": "apple",
+    "price": 31900,
+    "image": "images/apple-watch-ultra-2.jpg",
+    "description": "ตัวท็อปสุดล้ำสำหรับผู้ที่ต้องการประสิทธิภาพสูงสุด ทนทานทุกสภาพการใช้งาน พร้อมฟีเจอร์ความปลอดภัยและกีฬาระดับมืออาชีพ"
+  },
+  {
+    "id": 9,
+    "name": "HUAWEI WATCH FIT 3",
+    "brand": "huawei",
+    "price": 3990,
+    "image": "images/huawei-watch-fit-3.jpg",
+    "description": "ดีไซน์บางเฉียบสไตล์หรู แบตเตอรี่ยอดเยี่ยม แม่นยำในการติดตามการออกกำลังกายทุกรูปแบบ"
+  },
+  {
+    "id": 10,
+    "name": "HUAWEI WATCH GT 4",
+    "brand": "huawei",
+    "price": 6990,
+    "image": "images/huawei-watch-gt-4.jpg",
+    "description": "สมาร์ทวอทช์พรีเมียมที่ครองแชมป์เรื่องแบตอึด ดีไซน์สุดหรู พร้อมความแม่นยำระดับมืออาชีพสำหรับสายฟิตเนสตัวจริง"
+  }
+]
